@@ -1,7 +1,7 @@
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
-<html lang="en" ng-app="CyberCP">
+<html lang="en" ng-app="THpanel">
 <head>
 
     <style>
@@ -185,16 +185,16 @@
                 <div id="mobile-navigation">
                     <button id="nav-toggle" class="collapsed" data-toggle="collapse" data-target="#page-sidebar">
                         <span></span></button>
-                    <a href="{% url 'index' %}" class="logo-content-small" title="{% trans 'CyberPanel' %}"></a>
+                    <a href="{% url 'index' %}" class="logo-content-small" title="{% trans 'TH Panel' %}"></a>
                 </div>
                 <div id="header-logo" class="logo-bg">
-                    <a href="{% url 'index' %}" class="logo-content-big" title="{% trans 'CyberPanel' %}">
+                    <a href="{% url 'index' %}" class="logo-content-big" title="{% trans 'TH Panel' %}">
                         Cyber <i>Panel</i>
-                        <span>{% trans "Web Hosting Control Panel" %}</span>
+                        <span>{% trans "TH Web Hosting Control Panel" %}</span>
                     </a>
-                    <a href="{% url 'index' %}" class="logo-content-small" title="{% trans 'CyberPanel' %}">
+                    <a href="{% url 'index' %}" class="logo-content-small" title="{% trans 'TH Panel' %}">
                         Cyber <i>Panel</i>
-                        <span>{% trans "Web Hosting Control Panel" %}</span>
+                        <span>{% trans " TH Web Hosting Control Panel" %}</span>
                     </a>
                     <a id="close-sidebar" href="#" title="{% trans 'Close sidebar' %}">
                         <i class="glyph-icon icon-angle-left"></i>
@@ -321,7 +321,7 @@
                                        aria-describedby="tooltip896208"></i>
                                     <span>{% trans "Design" %}</span>
                                 </a>
-                                <a href="https://go.cyberpanel.net/cloud"
+                                <a href="https://tanzanitehost.tk/cloud"
                                    title="{% trans 'Connect' %}">
                                     <i class="glyph-icon tooltip-button icon-link" title="{% trans 'Connect' %}"
                                        data-original-title=".icon-cloud-upload" aria-describedby="tooltip896208"></i>
